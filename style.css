@@ -1,16 +1,19 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     padding: 30px;
 }
 
 button {
     margin: 5px;
-    padding: 10px;
+    padding: 8px 12px;
 }
 
 #hard-answer {
     width: 300px;
+    padding: 6px;
 }
+
+/* Dropdown styling */
 
 .dropdown {
     position: relative;
@@ -21,17 +24,19 @@ button {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 300px;
+    min-width: 320px;
     border: 1px solid #aaa;
     padding: 10px;
     z-index: 1;
-}
-
-.dropdown-content label {
-    display: block;
-    margin-bottom: 5px;
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 .dropdown-content.show {
     display: block;
+}
+
+.dropdown-content label {
+    display: block;
+    margin-bottom: 4px;
 }
