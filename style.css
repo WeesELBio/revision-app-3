@@ -11,3 +11,27 @@ button {
 #hard-answer {
     width: 300px;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown-content.show {
+    display: block;
+}
