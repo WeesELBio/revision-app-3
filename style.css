@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+#hard-answer {
+    width: 300px;
+}
