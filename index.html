@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Revision Program</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Revision Program</h1>
+
+<select id="mode">
+    <option value="normal">Normal</option>
+    <option value="hard">Hard</option>
+</select>
+
+<div class="dropdown">
+    <button>Choose topics</button>
+    <div class="dropdown-content" id="topics"></div>
+</div>
+
+<hr>
+
+<div id="question-box"></div>
+
+<div id="answers"></div>
+
+<input type="text" id="hard-answer" placeholder="Type your answer">
+
+<br><br>
+
+<button onclick="checkAnswer()">Check Answer</button>
+<button onclick="nextQuestion()">Continue</button>
+
+<p id="feedback"></p>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
