@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "Biology",
+    "topic": "Biological molecules",
+    "subtopic": "Carbohydrates - monosaccharides",
+    "question": "Which of the following is a monosaccharide?",
+    "options": [
+      "Glucose",
+      "Starch",
+      "Cellulose",
+      "Glycogen"
+    ],
+    "answer": "Glucose"
+  },
+  {
+    "subject": "Chemistry",
+    "topic": "Atomic structure",
+    "subtopic": "Isotopes",
+    "question": "What defines an isotope?",
+    "options": [
+      "Same number of protons, different neutrons",
+      "Same neutrons, different electrons",
+      "Different protons",
+      "Different atomic numbers"
+    ],
+    "answer": "Same number of protons, different neutrons"
+  }
+]
